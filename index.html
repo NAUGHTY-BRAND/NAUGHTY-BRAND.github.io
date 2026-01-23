@@ -1438,13 +1438,28 @@
       transform-origin: center bottom;
     }
 
-    @keyframes love-burst {
-      50%,
-      100% {
-        box-shadow: inset 0 0 0 0 rgb(226, 18, 181);
-        transform: translate(0, 0) scale(1);
-      }
-    }
+@keyframes love-burst {
+  0% {
+    box-shadow: inset 0 0 0 5.5vmin transparent;
+    transform: translate(0, 0.05em) scale(0);
+  }
+  30% {
+    box-shadow: inset 0 0 0 4vmin rgba(226, 18, 181, 0.3);
+    transform: translate(0, 0) scale(0.7);
+  }
+  60% {
+    box-shadow: inset 0 0 0 2vmin rgba(226, 18, 181, 0.6);
+    transform: translate(0, -10px) scale(0.9);
+  }
+  80% {
+    box-shadow: inset 0 0 0 1vmin rgba(226, 18, 181, 0.8);
+    transform: translate(0, -15px) scale(1);
+  }
+  100% {
+    box-shadow: inset 0 0 0 0 rgb(226, 18, 181);
+    transform: translate(0, -20px) scale(1);
+  }
+}
 
     .heart {
       fill: transparent;
