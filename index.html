@@ -1707,6 +1707,36 @@
     bottom: 3vmin !important;
   }
 }
+    /* LIFT FLOWERS UP ON PHONES */
+@media (max-width: 768px) {
+  /* MOVE ALL FLOWERS HIGHER UP */
+  .flower--1,
+  .flower--2,
+  .flower--3,
+  .flower--4 {
+    bottom: 30vmin !important; /* Was 10vmin - now much higher */
+  }
+  
+  /* ADJUST THE ENTIRE FLOWERS CONTAINER */
+  .flowers {
+    transform: scale(var(--flower-s-mobile)) translateY(-20vmin) !important;
+    transform-origin: bottom center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* EVEN HIGHER ON SMALL PHONES */
+  .flower--1,
+  .flower--2,
+  .flower--3,
+  .flower--4 {
+    bottom: 40vmin !important;
+  }
+  
+  .flowers {
+    transform: scale(var(--flower-s-mobile)) translateY(-30vmin) !important;
+  }
+}
   </style>
 </head>
 <body>
