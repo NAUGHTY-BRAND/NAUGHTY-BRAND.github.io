@@ -1660,81 +1660,86 @@
         transform: scale(var(--flower-s-desktop));
       }
     }
-/* ADD THIS CSS AT THE END OF YOUR STYLE SECTION */
-/* INCREASE FLOWER HEIGHT FOR MOBILE */
-
 @media (max-width: 768px) {
-  .flower--1 .flower__line {
-    height: 80vmin !important;
+  /* Add this to fix flower positioning on mobile */
+  .flowers {
+    transform: scale(var(--flower-s-mobile)) translateY(-20vh) !important;
   }
   
-  .flower--2 .flower__line {
-    height: 70vmin !important;
-  }
-  
-  .flower--3 .flower__line {
-    height: 65vmin !important;
-  }
-  
-  .flower--4 .flower__line {
-    height: 60vmin !important;
-  }
-  
-  /* Move flowers higher up */
   .flower {
-    bottom: 5vmin !important;
+    bottom: 20vmin !important; /* Increase from 10vmin to 20vmin */
+  }
+  
+  /* Adjust individual flower positions */
+  .flower--1 {
+    left: 10% !important;
+    bottom: 25vmin !important;
+  }
+  
+  .flower--2 {
+    left: 30% !important;
+    bottom: 22vmin !important;
+  }
+  
+  .flower--3 {
+    left: 50% !important;
+    bottom: 20vmin !important;
+  }
+  
+  .flower--4 {
+    left: 70% !important;
+    bottom: 18vmin !important;
+  }
+  
+  /* Adjust grass and other elements */
+  .flower__grass {
+    bottom: 15vmin !important;
+  }
+  
+  .flower__g-long {
+    bottom: 15vmin !important;
+  }
+  
+  .flower__g-right {
+    bottom: 10vmin !important;
+  }
+  
+  .flower__g-front {
+    bottom: 10vmin !important;
+  }
+  
+  .flower__g-fr {
+    bottom: -1vmin !important;
+  }
+  
+  .long-g {
+    bottom: 20vmin !important;
   }
 }
 
 @media (max-width: 480px) {
-  .flower--1 .flower__line {
-    height: 75vmin !important;
-  }
-  
-  .flower--2 .flower__line {
-    height: 65vmin !important;
-  }
-  
-  .flower--3 .flower__line {
-    height: 60vmin !important;
-  }
-  
-  .flower--4 .flower__line {
-    height: 55vmin !important;
+  .flowers {
+    transform: scale(var(--flower-s-mobile)) translateY(-15vh) !important;
   }
   
   .flower {
-    bottom: 3vmin !important;
-  }
-}
-    /* LIFT FLOWERS UP ON PHONES */
-@media (max-width: 768px) {
-  /* MOVE ALL FLOWERS HIGHER UP */
-  .flower--1,
-  .flower--2,
-  .flower--3,
-  .flower--4 {
-    bottom: 30vmin !important; /* Was 10vmin - now much higher */
+    bottom: 15vmin !important;
   }
   
-  /* ADJUST THE ENTIRE FLOWERS CONTAINER */
-  .flowers {
-    transform: scale(var(--flower-s-mobile)) translateY(-20vmin) !important;
-    transform-origin: bottom center !important;
-  }
-}
-
-@media (max-width: 480px) {
-  /* EVEN HIGHER ON SMALL PHONES */
-  .flower--1,
-  .flower--2,
-  .flower--3,
-  .flower--4 {
-    bottom: 40vmin !important;
+  .flower--1 {
+    bottom: 20vmin !important;
   }
   
-  .flowers {
-    transform: scale(var(--flower-s-mobile)) translateY(-30vmin) !important;
+  .flower--2 {
+    bottom: 18vmin !important;
+  }
+  
+  .flower--3 {
+    bottom: 16vmin !important;
+  }
+  
+  .flower--4 {
+    bottom: 14vmin !important;
   }
 }
   </style>
