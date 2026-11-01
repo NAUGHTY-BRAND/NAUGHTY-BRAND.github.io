@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#170504">
+<title>Al Khair Shawarma &amp; Burger | Circular Road, Muzaffargarh</title>
+<meta name="description" content="Shawarma, zinger burgers, rolls and platters on Circular Road, Muzaffargarh. Dine-in, takeaway and delivery.">
+<meta property="og:title" content="Al Khair Shawarma &amp; Burger">
+<meta property="og:description" content="Hot shawarma, crispy burgers and loaded platters on Circular Road, Muzaffargarh.">
+<meta property="og:type" content="restaurant.restaurant">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FastFoodRestaurant", "name": "Al Khair Shawarma & Burger", "telephone": "+92 313 5256239", "servesCuisine": ["Shawarma", "Burgers", "Fast food"], "address": {"@type": "PostalAddress", "streetAddress": "Circular Road", "addressLocality": "Muzaffargarh", "addressCountry": "PK"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.1", "reviewCount": "12"}, "hasMap": "https://www.google.com/maps/search/?api=1&query=Al+Khair+Shawarma+Circular+Road+Muzaffargarh"}</script>
+<script>document.documentElement.className="js"</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ember:#E0291B;--orange:#FF7A00;--saffron:#FFB800;--deep:#170504;--cream:#FFEFD6;
+--paper:#FFF4E0;--txt:#2A0B07;--soft:rgba(42,11,7,.62);--line:rgba(42,11,7,.14);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#1F0A07;--txt:#FFEFD6;--soft:rgba(255,239,214,.62);--line:rgba(255,239,214,.16)}}
+:root[data-theme="dark"]{--paper:#1F0A07;--txt:#FFEFD6;--soft:rgba(255,239,214,.62);--line:rgba(255,239,214,.16)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 56px)}
+body{margin:0;background:var(--deep);color:var(--cream);font:400 1.05rem/1.55 "Hanken Grotesk",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Bricolage Grotesque","Arial Black",system-ui,sans-serif;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--saffron);outline-offset:3px}
+
+/* header */
+.hd{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 12px) 6vw 12px;transition:background .4s,box-shadow .4s}
+.hd.s{background:rgba(23,5,4,.78);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(255,239,214,.12)}
+.br{font:800 1.45rem "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;text-decoration:none}
+.hd nav{display:flex;gap:26px;align-items:center}
+.hd nav a{text-decoration:none;font-weight:500;background:linear-gradient(var(--saffron),var(--saffron)) 0 100%/0 2px no-repeat;transition:background-size .35s;padding-bottom:3px}
+.hd nav a:hover{background-size:100% 2px}
+.hd nav a.c{background:none;font-weight:700;color:var(--saffron)}
+@media(max-width:560px){.hd nav a:not(.c){display:none}}
+
+/* buttons */
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;padding:16px 26px;border-radius:14px;font:700 1rem "Hanken Grotesk",sans-serif;text-decoration:none;border:0;cursor:pointer;transition:transform .3s cubic-bezier(.3,1.5,.5,1),box-shadow .3s}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.btn:hover::after{transform:translateX(120%)}
+.btn:hover{transform:translateY(-3px)}.btn:active{transform:scale(.96)}
+.p{background:linear-gradient(120deg,var(--saffron),var(--orange));color:#2A0B07;box-shadow:0 12px 30px -10px rgba(255,122,0,.8)}
+.g{background:rgba(255,255,255,.07);color:var(--cream);border:1px solid rgba(255,255,255,.28)}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+
+/* hero */
+.hero{position:relative;isolation:isolate;min-height:100svh;display:grid;align-items:center;padding:96px 6vw 90px;overflow:hidden;color:var(--cream);background:#000}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.4) 42%,transparent 68%)}
+.ban{position:absolute;inset:0;z-index:0;display:block;translate:calc(var(--px,0)*-12px) calc(var(--py,0)*-8px + var(--sp,0)*90px);scale:calc(1 + var(--sp,0)*.16);transition:translate .5s ease-out}
+.ban img{display:block;width:100%;height:100%;object-fit:cover;object-position:75% center;animation:zoom 2.2s cubic-bezier(.2,.8,.2,1) both,drift 18s ease-in-out 2.2s infinite alternate}
+.ban img:not([src]){display:none}
+.hc{position:relative;z-index:2;max-width:660px;margin-left:clamp(0px,5vw,100px)}
+h1{font-size:clamp(2.7rem,5vw,5rem);font-weight:800;line-height:.95;letter-spacing:-.045em}
+.ln{display:block;overflow:hidden;padding:.06em 0}
+.ln>span{display:block;transform:translateY(108%);animation:up 1.1s cubic-bezier(.2,.8,.2,1) var(--d) forwards}
+.lede{max-width:34ch;margin:22px 0 28px;font-size:1.2rem;color:rgba(255,239,214,.8)}
+.fu{opacity:0;animation:fu .9s cubic-bezier(.2,.8,.2,1) var(--d) forwards}
+.meta{display:flex;flex-wrap:wrap;gap:10px 0;margin-top:34px;color:rgba(255,239,214,.7);font-weight:500}
+.meta span{padding:0 18px}.meta span:first-child{padding-left:0}.meta span+span{border-left:1px solid rgba(255,239,214,.25)}
+@media(max-width:760px){.hero{align-items:start;padding:104px 6vw 112vw}.hero::before{display:none}.ban{inset:auto 0 0 0;height:auto;aspect-ratio:9/16;-webkit-mask:linear-gradient(180deg,transparent,#000 26%);mask:linear-gradient(180deg,transparent,#000 26%)}.ban img{object-position:center}.hc{margin-left:0}.meta span{padding:0 12px;font-size:.92rem}.meta span:first-child{padding-left:0}}
+@keyframes up{to{transform:none}}
+@keyframes fu{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes zoom{from{opacity:0;transform:scale(1.16)}to{opacity:1;transform:scale(1.06)}}
+@keyframes drift{from{transform:scale(1.06)}to{transform:scale(1.1)}}
+
+/* marquee */
+.mqw{position:relative;z-index:4;overflow:hidden;margin-top:-34px;padding:30px 0}
+.mqr{margin:0 -4vw;overflow:hidden;transform:rotate(-1.8deg);background:linear-gradient(90deg,var(--ember),var(--orange),var(--saffron));box-shadow:0 14px 40px -12px rgba(0,0,0,.6)}
+.mq{display:flex;width:max-content;padding:16px 0;color:#2A0B07;animation:mq 34s linear infinite;will-change:transform}
+.mqw:hover .mq{animation-play-state:paused}
+.mq span{display:flex;align-items:center;font:800 clamp(1.5rem,4vw,2.5rem)/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;white-space:nowrap}
+.mq span::after{content:"";width:14px;height:14px;margin:0 30px;background:#2A0B07;transform:rotate(45deg)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* menu */
+.menu{background:var(--deep);color:var(--cream);margin-top:-34px;padding:120px 0 0;position:relative}
+.menu .in1{padding:0 6vw}
+.menu .intro{color:rgba(255,239,214,.7);margin-bottom:0}
+.in1{max-width:1080px;margin:0 auto}
+h2{font-size:clamp(2.6rem,8vw,6rem);font-weight:800;line-height:.92;letter-spacing:-.045em}
+.intro{max-width:42ch;margin:18px 0 38px;color:var(--soft);font-size:1.15rem}
+.it{position:relative;isolation:isolate;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:24px 10px;border-bottom:1px solid var(--line)}
+.it::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(255,184,0,.34),rgba(255,122,0,.04));transform:scaleX(0);transform-origin:left;transition:transform .55s cubic-bezier(.2,.8,.2,1)}
+.it:hover::before{transform:scaleX(1)}
+.it h3{font-size:clamp(1.5rem,3.6vw,2.3rem);font-weight:700;line-height:1.08;letter-spacing:-.03em;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.it p{margin:6px 0 0;color:var(--soft);max-width:46ch;transition:transform .4s .04s cubic-bezier(.2,.8,.2,1)}
+.it:hover h3,.it:hover p{transform:translateX(12px)}
+.bara{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:end;margin:30px 0 8px;padding:clamp(24px,4vw,44px);border-radius:24px;color:#fff;background:linear-gradient(120deg,#C81F13,#FF6A00 62%,#FFB800);box-shadow:0 30px 60px -28px rgba(200,31,19,.8);transition:transform .25s ease-out}
+.bara::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-130%);transition:transform .9s}
+.bara:hover::after{transform:translateX(130%)}
+.bara h3{font-size:clamp(2.2rem,7vw,4.4rem);font-weight:800;letter-spacing:-.045em;line-height:.95}
+.bara p{margin:10px 0 0;max-width:30ch;font-size:1.1rem;opacity:.92}
+.pr{position:relative;z-index:1;display:flex;align-items:center;justify-content:flex-end;gap:20px}
+.pr b{font:800 clamp(3rem,10vw,6.4rem)/.9 "Bricolage Grotesque",sans-serif;letter-spacing:-.05em}
+@media(max-width:640px){.bara{grid-template-columns:1fr}.pr{justify-content:flex-start}}
+
+/* stepper */
+.ctl{position:relative;z-index:1;display:flex;align-items:center;height:46px;border:2px solid currentColor;border-radius:12px;overflow:hidden}
+.ctl button{width:44px;height:100%;flex:none;border:0;background:none;color:inherit;font:700 1.5rem "Bricolage Grotesque",sans-serif;cursor:pointer;transition:background .25s,transform .25s}
+.ctl button:hover{background:linear-gradient(120deg,var(--saffron),var(--orange));color:#2A0B07}
+.ctl .a:hover{transform:rotate(90deg)}
+.ctl .m,.ctl .q{max-width:0;opacity:0;overflow:hidden;transition:max-width .35s cubic-bezier(.3,1,.3,1),opacity .3s}
+.ctl.on .m,.ctl.on .q{max-width:44px;opacity:1}
+.q{width:44px;text-align:center;font-weight:700}
+
+/* modes */
+.modes{padding:120px 6vw;background:var(--deep)}
+.modes h2{max-width:11ch;color:var(--cream)}
+.pns{display:flex;gap:16px;height:400px;margin-top:48px}
+.pn{position:relative;overflow:hidden;flex:1;border-radius:24px;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;cursor:pointer;transition:flex .7s cubic-bezier(.2,.8,.2,1),transform .4s;background:linear-gradient(165deg,#D8271A,#5E0B06)}
+.pn:nth-child(2){background:linear-gradient(165deg,#FF7A00,#9A3300)}
+.pn:nth-child(3){background:linear-gradient(165deg,#FFB800,#D26A00);color:#2A0B07}
+.pn.on{flex:2.7}
+.pn h3{font-size:clamp(1.8rem,4vw,3rem);font-weight:800;letter-spacing:-.04em;line-height:1}
+.pn p{max-height:0;opacity:0;margin:0;max-width:26ch;font-weight:500;transition:max-height .6s,opacity .5s,margin .5s}
+.pn.on p{max-height:120px;opacity:1;margin-top:12px}
+@media(max-width:760px){.pns{flex-direction:column;height:auto}.pn{flex:none;min-height:120px;transition:min-height .6s cubic-bezier(.2,.8,.2,1)}.pn.on{min-height:230px}}
+
+/* visit */
+.visit{padding:110px 6vw 90px;background:linear-gradient(180deg,var(--deep),#2D0906)}
+.vg{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.visit h2{color:var(--cream)}
+.vs{margin:20px 0 32px;font-size:1.2rem;color:rgba(255,239,214,.8);max-width:28ch}
+.dl{display:grid;gap:0}
+.dr{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;border-bottom:1px solid rgba(255,239,214,.16)}
+.dr small{display:block;font-size:.95rem;color:rgba(255,239,214,.6)}
+.dr strong{font:700 clamp(1.3rem,3vw,1.8rem)/1.2 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em}
+.dr a{text-decoration:none;background:linear-gradient(var(--saffron),var(--saffron)) 0 100%/0 3px no-repeat;transition:background-size .35s,color .3s}
+.dr a:hover{background-size:100% 3px;color:var(--saffron)}
+.cp{flex:none;background:none;border:1px solid rgba(255,239,214,.3);color:var(--cream);border-radius:10px;padding:8px 14px;font:600 .9rem "Hanken Grotesk",sans-serif;cursor:pointer;transition:background .25s,color .25s,transform .25s}
+.cp:hover{background:var(--saffron);color:#2A0B07;transform:translateY(-2px)}
+footer{padding:30px 6vw calc(36px + 70px);text-align:center;color:rgba(255,239,214,.55);background:#2D0906;font-size:.95rem}
+@media(max-width:820px){.vg{grid-template-columns:1fr;gap:34px}}
+
+/* order tray */
+.tray{position:fixed;z-index:40;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 14px);width:min(520px,calc(100vw - 24px));transform:translate(-50%,160%);transition:transform .6s cubic-bezier(.2,1.2,.4,1);background:#1d0705;color:var(--cream);border:1px solid rgba(255,184,0,.4);border-radius:20px;box-shadow:0 24px 60px -10px rgba(0,0,0,.7)}
+.tray.v{transform:translate(-50%,0)}
+.tb{display:flex;align-items:center;gap:14px;width:100%;padding:16px 20px;background:none;border:0;color:inherit;font:700 1.05rem "Hanken Grotesk",sans-serif;cursor:pointer;text-align:left}
+.bd{display:grid;place-items:center;min-width:34px;height:34px;border-radius:10px;background:linear-gradient(120deg,var(--saffron),var(--orange));color:#2A0B07}
+.bd.bump{animation:bump .45s}
+@keyframes bump{40%{transform:scale(1.35) rotate(-8deg)}}
+.chev{margin-left:auto;width:10px;height:10px;border:solid var(--saffron);border-width:0 3px 3px 0;transform:rotate(225deg);transition:transform .4s}
+.tray.o .chev{transform:rotate(45deg)}
+.tl{max-height:0;overflow:auto;transition:max-height .6s cubic-bezier(.2,.8,.2,1)}
+.tray.o .tl{max-height:min(70vh,520px)}
+.tl ul{list-style:none;margin:0;padding:0 20px}
+.tl li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-top:1px solid rgba(255,239,214,.14);font-weight:500}
+.ta{display:grid;gap:10px;padding:16px 20px 6px}
+.note{margin:0;padding:6px 20px 18px;font-size:.9rem;color:rgba(255,239,214,.6)}
+
+.js .rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.ln>span{transform:none}}
+
+/* cinematic scroll */
+.pbar{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--ember),var(--orange),var(--saffron))}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:#000;opacity:calc(var(--sp,0)*.85);pointer-events:none}
+.hc{translate:0 calc(var(--sp,0)*-70px);opacity:calc(1 - var(--sp,0)*1.4)}
+.lb{position:absolute;left:0;right:0;height:15vh;background:#000;z-index:5;pointer-events:none}
+.lb.t{top:0;animation:lbt 1.4s cubic-bezier(.7,0,.2,1) .15s forwards}
+.lb.b{bottom:0;animation:lbb 1.4s cubic-bezier(.7,0,.2,1) .15s forwards}
+@keyframes lbt{to{transform:translateY(-100%)}}
+@keyframes lbb{to{transform:translateY(100%)}}
+.mq{translate:calc(var(--ms,0)*-1px) 0}
+.pns.sc{scale:calc(.9 + var(--e,1)*.1)}
+h2.sc{translate:0 calc((.5 - var(--t,.5))*90px)}
+
+/* lenis (desktop only) + phone optimisations */
+html.lenis,html.lenis body{height:auto}
+html.lenis{scroll-behavior:auto!important}
+.lenis:not(.lenis-autoToggle).lenis-stopped{overflow:clip}
+.lenis [data-lenis-prevent]{overscroll-behavior:contain}
+.mqw.off .mq{animation-play-state:paused}
+@media(hover:none),(pointer:coarse){
+  .ban img{animation:zoom 2.2s cubic-bezier(.2,.8,.2,1) both}
+  .hd.s{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(23,5,4,.94)}
+}
+
+/* branding + reviews */
+.br{display:flex;flex-direction:column;gap:3px;line-height:1}
+.br small{font:600 .68rem/1 "Hanken Grotesk",sans-serif;letter-spacing:.02em;color:var(--saffron)}
+.bn{font-size:clamp(3.4rem,7.4vw,7rem);line-height:.92;letter-spacing:-.05em}
+.bs{font-size:clamp(1.5rem,3.1vw,2.9rem);font-weight:700;letter-spacing:-.03em;color:var(--saffron);line-height:1.05}
+.dot{display:inline-block;width:9px;height:9px;margin-right:9px;border-radius:50%;background:#3ddc84;animation:pulse 2s infinite}
+.dot.cl{background:#ff5a4a;animation:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,220,132,.6)}100%{box-shadow:0 0 0 10px rgba(61,220,132,0)}}
+.rev{height:calc(100svh + var(--n,3)*50svh);background:#1d0705}
+.rstick{position:sticky;top:0;height:100svh;display:flex;align-items:center;padding:72px 6vw 28px;overflow:hidden}
+.rstick .in1{width:100%}
+.ro{display:block;margin:-10px 0 22px;font-size:.85rem;color:rgba(255,239,214,.5)}
+.rev h2{color:var(--cream)}
+.rg2{display:grid;grid-template-columns:.6fr 1.4fr;gap:clamp(30px,6vw,90px);align-items:center;margin-top:36px}
+.big4{display:block;font:800 clamp(6rem,15vw,11rem)/.8 "Bricolage Grotesque",sans-serif;letter-spacing:-.06em;padding-bottom:.06em;background:linear-gradient(180deg,#FFE9B0,#FF9D3A 60%,#C0361A);-webkit-background-clip:text;background-clip:text;color:transparent}
+.st5{margin:18px 0 6px;font-size:1.6rem;letter-spacing:3px;line-height:1;background:linear-gradient(90deg,var(--saffron) 82%,rgba(255,239,214,.25) 82%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rl p{margin:0 0 24px;color:rgba(255,239,214,.7)}
+.rq{position:relative;min-height:330px;display:flex;flex-direction:column;justify-content:center}
+.rq::before{content:"\201C";position:absolute;top:-60px;left:-14px;font:800 clamp(10rem,22vw,18rem)/1 "Bricolage Grotesque",sans-serif;color:rgba(255,184,0,.1);pointer-events:none}
+.qt{position:relative;min-height:3.7em;font:700 clamp(1.8rem,3.9vw,3.4rem)/1.08 "Bricolage Grotesque",sans-serif;letter-spacing:-.035em;color:var(--cream)}
+.qt span{display:inline-block;margin-right:.26em;opacity:0;transform:translateY(.5em);filter:blur(6px);animation:w .7s cubic-bezier(.2,.8,.2,1) calc(var(--i)*55ms) forwards}
+@keyframes w{to{opacity:1;transform:none;filter:none}}
+.qm{margin:22px 0 34px;font-size:1.1rem;font-weight:600;color:var(--saffron)}
+.qn{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
+.qn button{position:relative;display:block;text-align:left;background:none;border:0;padding:16px 0 0;color:rgba(255,239,214,.45);font:500 .95rem "Hanken Grotesk",sans-serif;cursor:pointer;transition:color .3s}
+.qn button b{display:block;font:700 1.15rem "Bricolage Grotesque",sans-serif;letter-spacing:-.02em}
+.qn button::before,.qn button::after{content:"";position:absolute;left:0;right:0;top:0;height:3px;border-radius:2px}
+.qn button::before{background:rgba(255,239,214,.18)}
+.qn button::after{background:linear-gradient(90deg,var(--saffron),var(--orange));transform:scaleX(var(--seg,0));transform-origin:left}
+.qn button:hover,.qn button.on{color:var(--cream)}
+.rl{padding-right:clamp(20px,4vw,60px);border-right:1px solid rgba(255,239,214,.14)}
+@keyframes fill{to{transform:none}}
+@media(max-width:820px){.rg2{grid-template-columns:1fr;gap:36px}.rq{min-height:0}.rq::before{top:-40px}.rl{display:flex;flex-wrap:wrap;align-items:center;gap:0 16px;border:0;padding:0}.big4{font-size:4.6rem}.st5{margin:0}.rl p{margin:0}.ro,.rl .btn{display:none}.qn{gap:2px 22px}}
+@media(max-width:760px){.hc .btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hc .btn{padding:15px 8px;font-size:.92rem;white-space:nowrap;text-align:center}}
+@media(max-width:380px){.hc .btns{grid-template-columns:1fr}}
+.map{grid-column:1/-1;position:relative;height:clamp(300px,42vw,440px);border-radius:22px;overflow:hidden;border:1px solid rgba(255,239,214,.22);box-shadow:0 30px 60px -30px #000}
+.map iframe{display:block;width:100%;height:100%;border:0;filter:invert(.92) hue-rotate(180deg) saturate(.75) brightness(.9) contrast(.95);transition:filter .6s}
+.map:hover iframe{filter:none}
+.map .btn{position:absolute;left:16px;bottom:16px;z-index:2}
+
+/* cinematic menu chapters */
+.chnav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);z-index:6;display:flex;margin-top:46px;background:rgba(23,5,4,.86);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-top:1px solid rgba(255,239,214,.14);border-bottom:1px solid rgba(255,239,214,.14)}
+.chnav button{position:relative;flex:1;background:none;border:0;padding:18px 6px 21px;font:700 clamp(.88rem,1.6vw,1.15rem) "Hanken Grotesk",sans-serif;color:rgba(255,239,214,.5);cursor:pointer;transition:color .3s}
+.chnav button:hover{color:var(--cream)}.chnav button.on{color:var(--saffron)}
+.chnav button::before,.chnav button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px}
+.chnav button::before{background:rgba(255,239,214,.12)}
+.chnav button::after{background:linear-gradient(90deg,var(--saffron),var(--orange));transform:scaleX(var(--seg,0));transform-origin:left}
+.ch{position:relative;isolation:isolate;min-height:100svh;padding:16vh 6vw}
+.ch::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,var(--deep),transparent 26%,transparent 74%,var(--deep))}
+.ch-glow{position:absolute;inset:0;z-index:-2;background:radial-gradient(55% 55% at 18% calc(25% + var(--t,.5)*50%),rgba(var(--rgb),.34),transparent 70%),radial-gradient(40% 40% at 92% 78%,rgba(var(--rgb),.14),transparent 70%)}
+.ch-in{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,90px);align-items:start}
+.ch-t{position:sticky;top:calc(env(safe-area-inset-top,0px) + 156px)}
+.ct{margin:0;font:800 clamp(3rem,7.2vw,7rem)/.92 "Bricolage Grotesque",sans-serif;letter-spacing:-.05em;padding-bottom:.08em;background:linear-gradient(180deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent;translate:0 calc((.5 - var(--t,.5))*50px)}
+.cn{margin:14px 0 0;font-size:1.1rem;color:rgba(255,239,214,.6)}
+.ch-l{padding:4vh 0}
+.ch .it{padding:30px 0;border-bottom:1px solid rgba(255,239,214,.14)}
+.ch .it p{color:rgba(255,239,214,.65)}
+.it,.bara{opacity:calc(.28 + var(--f,1)*.72);translate:calc((1 - var(--f,1))*28px) 0;transition:opacity .2s linear,translate .2s linear}
+.bara{transition:transform .25s ease-out,opacity .2s linear,translate .2s linear}
+@media(max-width:820px){.ch{min-height:0;padding:12vh 6vw 8vh}.ch-in{grid-template-columns:1fr;gap:18px}.ch-t{position:static}.ct{font-size:clamp(2.8rem,13vw,4.6rem)}.chnav{top:calc(env(safe-area-inset-top,0px) + 60px)}}
+@media(hover:none),(pointer:coarse){.chnav{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(23,5,4,.97)}}
+</style>
+</head>
+<body id="top">
+<div class="pbar" id="pbar"></div>
+
+<header class="hd" id="hd">
+  <a class="br" href="#top">Al Khair<small>Shawarma &amp; Burger</small></a>
+  <nav><a href="#menu">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a><a class="c" href="tel:+923135256239">Call now</a></nav>
+</header>
+
+<section class="hero" id="hero">
+  <div class="lb t"></div><div class="lb b"></div>
+  <picture class="ban"><source media="(max-width:760px)" srcset="https://i.ibb.co/fY0jR4Q5/alkhair-mobile.png"><img src="https://i.ibb.co/m5bTg1f1/alkhair-pc.png" alt="Crispy chicken burger and chicken shawarma wrap on a dark wooden board"></picture>
+  <div class="hc">
+    <h1><span class="ln"><span class="bn" style="--d:.2s">Al Khair</span></span><span class="ln"><span class="bs" style="--d:.4s">Shawarma &amp; Burger</span></span></h1>
+    <p class="lede fu" style="--d:.8s">Hot shawarma, crispy burgers and loaded platters, made fresh on Circular Road, Muzaffargarh.</p>
+    <div class="btns fu" style="--d:1s">
+      <a class="btn p" href="#menu">Order from the menu</a>
+      <a class="btn g" href="tel:+923135256239">Call 0313 5256239</a>
+    </div>
+    <div class="meta fu" style="--d:1.2s"><span>★ 4.1 on Google</span><span class="st">Open 5 PM to 11:30 PM</span></div>
+  </div>
+</section>
+
+<div class="mqw" aria-hidden="true"><div class="mqr"><div class="mq" id="mq"></div></div></div>
+
+<section class="menu" id="menu">
+  <div class="in1">
+    <h2 class="sc">What’s cooking</h2>
+    <p class="intro">Pick your favourites, tap plus, and send the order straight to us.</p>
+  </div>
+  <nav class="chnav" id="chnav" aria-label="Menu sections"></nav>
+  <div id="chapters"></div>
+</section>
+
+<section class="modes">
+  <div class="in1">
+    <h2 class="rv sc">However you like it</h2>
+    <div class="pns rv sc" style="--d:.15s" id="pns">
+      <div class="pn on" tabindex="0"><h3>Dine-in</h3><p>Grab a seat and eat it while it’s hot.</p></div>
+      <div class="pn" tabindex="0"><h3>Takeaway</h3><p>Wrapped fresh and ready when you are.</p></div>
+      <div class="pn" tabindex="0"><h3>Delivery</h3><p>Call us and it comes to your door.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="rev" id="reviews">
+  <div class="rstick"><div class="in1">
+    <h2>What people say</h2>
+    <div class="rg2">
+      <div class="rl">
+        <b class="big4">4.1</b>
+        <div class="st5" aria-label="4.1 out of 5 stars">★★★★★</div>
+        <p>from 12 Google reviews</p>
+        <a class="btn g" href="https://www.google.com/maps/search/?api=1&amp;query=Al+Khair+Shawarma+Circular+Road+Muzaffargarh" target="_blank" rel="noopener">Read them on Google</a>
+      </div>
+      <div class="rq">
+        <div class="qt" id="qt" aria-live="polite"></div>
+        <div class="qn" id="qn"></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="vg">
+    <div class="rv">
+      <h2 class="sc">Come hungry</h2>
+      <p class="vs">Find us on Circular Road in Muzaffargarh, open from 5 PM to 11:30 PM.</p>
+      <div class="btns">
+        <a class="btn p" href="https://www.google.com/maps/dir//Malik+Photo+Studio,+boys+high+school+basira,+Main+Street%D8%8C+Muzaffargarh,+Pakistan%E2%80%AD/@30.0696406,71.1926577,19z/data=!4m16!1m7!3m6!1s0x393b299c7c756a7d:0xd522ba97435e7f28!2sMalik+Photo+Studio!8m2!3d30.0694501!4d71.1933553!16s%2Fg%2F11rp324ccg!4m7!1m0!1m5!1m1!1s0x393b299c7c756a7d:0xd522ba97435e7f28!2m2!1d71.1933473!2d30.0694499!18m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn g" href="tel:+923135256239">Call now</a>
+      </div>
+    </div>
+    <div class="dl rv" style="--d:.15s">
+      <div class="dr"><div><small>Address</small><strong>Circular Road, Muzaffargarh</strong></div></div>
+      <div class="dr"><div><small>Hours</small><strong>5 PM to 11:30 PM</strong><small class="st"></small></div></div>
+      <div class="dr"><div><small>Phone</small><strong><a href="tel:+923135256239">0313 5256239</a></strong></div><button class="cp" data-copy="03135256239">Copy</button></div>
+      <div class="dr"><div><small>Second line</small><strong><a href="tel:+923154221366">0315 4221366</a></strong></div><button class="cp" data-copy="03154221366">Copy</button></div>
+      <div class="dr"><div><small>Plus code</small><strong>359V+R2 Muzaffargarh</strong></div><button class="cp" data-copy="359V+R2 Muzaffargarh">Copy</button></div>
+    </div>
+    <div class="map rv">
+      <iframe title="Al Khair Shawarma &amp; Burger on Google Maps" src="https://www.google.com/maps?q=30.0694501,71.1933553&amp;z=18&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <a class="btn p" href="https://www.google.com/maps/dir//Malik+Photo+Studio,+boys+high+school+basira,+Main+Street%D8%8C+Muzaffargarh,+Pakistan%E2%80%AD/@30.0696406,71.1926577,19z/data=!4m16!1m7!3m6!1s0x393b299c7c756a7d:0xd522ba97435e7f28!2sMalik+Photo+Studio!8m2!3d30.0694501!4d71.1933553!16s%2Fg%2F11rp324ccg!4m7!1m0!1m5!1m1!1s0x393b299c7c756a7d:0xd522ba97435e7f28!2m2!1d71.1933473!2d30.0694499!18m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Directions</a>
+    </div>
+  </div>
+</section>
+<footer>Al Khair Shawarma &amp; Burger, Circular Road, Muzaffargarh</footer>
+
+<aside class="tray" id="tray" aria-live="polite">
+  <button class="tb" id="tb" aria-expanded="false"><span class="bd" id="bd">0</span><span>Your order</span><i class="chev"></i></button>
+  <div class="tl" data-lenis-prevent>
+    <ul id="tl"></ul>
+    <div class="ta">
+      <a class="btn p" id="wa" target="_blank" rel="noopener">Send on WhatsApp</a>
+      <a class="btn g" href="tel:+923135256239">Call to order</a>
+    </div>
+    <p class="note">The shop confirms prices when your order arrives.</p>
+  </div>
+</aside>
+
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)},$$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+var M=[
+["Shawarma",[["Full Size Shawarma","The big one. A full-size wrap, loaded and sauced.",120],["Special Shawarma","Our loaded special with extra filling and sauce."],["Zinger Shawarma","Crispy zinger chicken, sauce and salad in a warm wrap."],["Cheese Shawarma","Shawarma chicken finished with melted cheese."]]],
+["Burgers",[["Zinger Burger","Crunchy zinger fillet with sauce in a soft bun."],["Chicken Burger","A classic chicken burger, sauced and stacked."],["Egg Burger","A burger with a fried egg on top."],["Plain Burger","Simple and filling, no extras."],["Plain Bread","Soft bread, kept simple."]]],
+["Rolls and paratha",[["Zinger Paratha Roll","Zinger chicken rolled in a hot paratha."],["Chicken Paratha","Chicken wrapped in fresh paratha."]]],
+["Platters",[["Single Platter","One generous portion, plated up."],["Double Platter","Twice the portion, made for sharing."],["Cheese Platter","A platter finished with melted cheese."],["Leg Piece","A crispy fried leg piece."]]]
+];
+var cart={};
+
+/* marquee */
+var names=[];M.forEach(function(g){g[1].forEach(function(x){names.push(x[0])})});
+var mh=names.map(function(n){return"<span>"+n+"</span>"}).join("");$("#mq").innerHTML=mh+mh;
+
+/* helpers */
+function ctl(n){return'<div class="ctl" data-n="'+n+'"><button class="m" data-s="'+n+'" aria-label="Remove one '+n+'">−</button><span class="q">0</span><button class="a" data-a="'+n+'" aria-label="Add '+n+'">+</button></div>'}
+function count(el){
+  var to=+el.dataset.count,pre=el.dataset.pre||"",dec=+(el.dataset.dec||0),t0=null;
+  function f(t){t0=t0||t;var k=Math.min((t-t0)/1300,1),e=1-Math.pow(1-k,4);el.textContent=pre+(to*e).toFixed(dec);if(k<1)requestAnimationFrame(f)}
+  requestAnimationFrame(f);
+}
+var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){count(e.target);cio.unobserve(e.target)}})},{threshold:.4});
+function counts(){$$("[data-count]").forEach(function(el){cio.observe(el)})}
+
+/* menu: cinematic chapters */
+var CH=[["Shawarma","Shawarma","#E0291B","#FFB800","224,41,27"],["Burgers","Burgers","#FF7A00","#FFD24D","255,122,0"],["Rolls and paratha","Rolls","#7FB62E","#E6DB5A","127,182,46"],["Platters","Platters","#FFE2B0","#FF9D3A","255,157,58"]],
+    chnav=$("#chnav"),nbs=[],mtick=false,mrd=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function show(){
+  var h="";chnav.innerHTML="";nbs=[];
+  M.forEach(function(g,i){var c=CH[i];
+    h+='<section class="ch sc" id="ch'+i+'" style="--c1:'+c[2]+';--c2:'+c[3]+';--rgb:'+c[4]+'"><div class="ch-glow"></div><div class="ch-in"><div class="ch-t"><h3 class="ct">'+g[0]+'</h3><p class="cn">'+g[1].length+' dishes</p></div><div class="ch-l">';
+    g[1].forEach(function(x){
+      if(x[2]) h+='<article class="bara" id="bara"><div><h3>'+x[0]+'</h3><p>'+x[1]+'</p></div><div class="pr"><b data-count="'+x[2]+'" data-pre="Rs ">Rs '+x[2]+'</b>'+ctl(x[0])+'</div></article>';
+      else h+='<div class="it"><div><h3>'+x[0]+'</h3><p>'+x[1]+'</p></div>'+ctl(x[0])+'</div>';
+    });
+    h+='</div></div></section>';
+    var b=document.createElement("button");b.textContent=c[1];
+    b.onclick=function(){var t=$("#ch"+i).getBoundingClientRect().top+scrollY+innerHeight*.08-112;window.lenis?window.lenis.scrollTo(t):scrollTo({top:t,behavior:"smooth"})};
+    chnav.appendChild(b);nbs.push(b);
+  });
+  $("#chapters").innerHTML=h;sync();counts();tilt();mscroll();
+}
+function tilt(){var c=$("#bara");if(!c)return;
+  c.onpointermove=function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform="perspective(900px) rotateX("+(-y*6)+"deg) rotateY("+(x*8)+"deg)"};
+  c.onpointerleave=function(){c.style.transform=""};}
+function mscroll(){mtick=false;var vh=innerHeight,mid=vh*.5,cur=-1;
+  if(!mrd)$$(".it,.bara").forEach(function(el){var r=el.getBoundingClientRect(),d=(r.top+r.height/2-mid)/(vh*.6);el.style.setProperty("--f",Math.max(0,1-d*d).toFixed(3))});
+  $$(".ch").forEach(function(ch,k){var r=ch.getBoundingClientRect(),sg=r.bottom<=mid?1:r.top>=mid?0:(mid-r.top)/r.height;if(sg>0&&sg<1)cur=k;if(nbs[k])nbs[k].style.setProperty("--seg",sg.toFixed(3))});
+  nbs.forEach(function(b,k){b.classList.toggle("on",k===cur)});
+}
+addEventListener("scroll",function(){if(!mtick){mtick=true;requestAnimationFrame(mscroll)}},{passive:true});addEventListener("resize",mscroll);
+
+/* order tray */
+var tray=$("#tray");
+function sync(){
+  var keys=Object.keys(cart).filter(function(k){return cart[k]>0}),total=keys.reduce(function(s,k){return s+cart[k]},0);
+  $("#tl").innerHTML=keys.map(function(k){return"<li><span>"+k+"</span>"+ctl(k)+"</li>"}).join("");
+  $$(".ctl").forEach(function(c){var q=cart[c.dataset.n]||0;c.classList.toggle("on",q>0);c.querySelector(".q").textContent=q});
+  var bd=$("#bd");if(bd.textContent!=total){bd.classList.remove("bump");void bd.offsetWidth;bd.classList.add("bump")}bd.textContent=total;
+  tray.classList.toggle("v",total>0);if(!total){tray.classList.remove("o");$("#tb").setAttribute("aria-expanded","false")}
+  var msg="Hi Al Khair, I’d like to order:\n"+keys.map(function(k){return cart[k]+" x "+k}).join("\n");
+  $("#wa").href="https://wa.me/923135256239?text="+encodeURIComponent(msg);
+}
+document.addEventListener("click",function(e){
+  var a=e.target.closest("[data-a]"),s=e.target.closest("[data-s]"),cp=e.target.closest("[data-copy]"),go=e.target.closest("[data-go]");
+  if(a){cart[a.dataset.a]=(cart[a.dataset.a]||0)+1;sync()}
+  if(s){cart[s.dataset.s]=Math.max(0,(cart[s.dataset.s]||0)-1);sync()}
+  if(cp){var t=cp.dataset.copy;try{navigator.clipboard.writeText(t)}catch(x){}cp.textContent="Copied";setTimeout(function(){cp.textContent="Copy"},1600)}
+  if(go){show(0)}
+});
+$("#tb").onclick=function(){var o=tray.classList.toggle("o");this.setAttribute("aria-expanded",o)};
+
+/* modes */
+var pn=$$(".pn");pn.forEach(function(p){function on(){pn.forEach(function(q){q.classList.toggle("on",q===p)})}p.addEventListener("mouseenter",on);p.addEventListener("click",on);p.addEventListener("focus",on)});
+
+/* hero + header + reveals */
+
+var hd=$("#hd");function sc(){hd.classList.toggle("s",scrollY>40)}addEventListener("scroll",sc,{passive:true});sc();
+var rio=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}})},{threshold:.2});
+$$(".rv").forEach(function(el){rio.observe(el)});
+/* hero parallax */
+var hero=$("#hero");
+if(matchMedia("(pointer:fine)").matches&&!matchMedia("(prefers-reduced-motion:reduce)").matches){
+  hero.addEventListener("pointermove",function(e){var r=hero.getBoundingClientRect();hero.style.setProperty("--px",((e.clientX-r.left)/r.width-.5)*2);hero.style.setProperty("--py",((e.clientY-r.top)/r.height-.5)*2)});
+  hero.addEventListener("pointerleave",function(){hero.style.setProperty("--px",0);hero.style.setProperty("--py",0)});
+}
+/* cinematic scroll */
+if(!matchMedia("(prefers-reduced-motion:reduce)").matches){
+  var pbar=$("#pbar"),mqt=$("#mq"),tick=false;
+  function onScroll(){tick=false;var y=scrollY,sp=Math.min(1,Math.max(0,y/hero.offsetHeight)),mx=document.documentElement.scrollHeight-innerHeight;
+    hero.style.setProperty("--sp",sp.toFixed(3));
+    pbar.style.transform="scaleX("+(mx>0?y/mx:0).toFixed(4)+")";
+    mqt.style.setProperty("--ms",(y*.2).toFixed(1));
+    $$(".sc").forEach(function(el){var r=el.getBoundingClientRect(),t=Math.min(1,Math.max(0,(innerHeight-r.top)/(innerHeight+r.height)));el.style.setProperty("--t",t.toFixed(3));el.style.setProperty("--e",Math.min(1,t*2.2).toFixed(3))});
+  }
+  addEventListener("scroll",function(){if(!tick){tick=true;requestAnimationFrame(onScroll)}},{passive:true});
+  addEventListener("resize",onScroll);onScroll();
+  new IntersectionObserver(function(es){$(".mqw").classList.toggle("off",!es[0].isIntersecting)}).observe($(".mqw"));
+}
+/* reviews: scroll-driven, one per slice of the pinned section */
+var RV=[["Very good experience. Recommended to everyone.","Rana","Dined in"],["Really awesome taste but environment should improve.","Aqsa","Dinner"],["Food 5/5. Service 5/5.","Amjad","Local Guide"]],
+    rev=$("#reviews"),qt=$("#qt"),qn=$("#qn"),rbs=[],rcur=-1,rtick=false;
+rev.style.setProperty("--n",RV.length);
+function rtop(i){var tot=rev.offsetHeight-innerHeight;return rev.getBoundingClientRect().top+scrollY+(i/RV.length)*tot+4}
+RV.forEach(function(r,i){var b=document.createElement("button");b.innerHTML="<b>"+r[1]+"</b>"+r[2];
+  b.onclick=function(){var t=rtop(i);window.lenis?window.lenis.scrollTo(t):scrollTo({top:t,behavior:"smooth"})};qn.appendChild(b);rbs.push(b)});
+function rshow(i){qt.innerHTML=RV[i][0].split(" ").map(function(w,k){return'<span style="--i:'+k+'">'+w+'</span>'}).join("")}
+function rscroll(){rtick=false;var r=rev.getBoundingClientRect();
+  if(r.top>=innerHeight||r.bottom<=0){rcur=-1;return}
+  var tot=rev.offsetHeight-innerHeight,p=Math.min(1,Math.max(0,-r.top/tot)),x=p*RV.length,i=Math.min(RV.length-1,Math.floor(x));
+  if(i!==rcur){rcur=i;rshow(i)}
+  rbs.forEach(function(b,k){b.classList.toggle("on",k===i);b.style.setProperty("--seg",(k<i?1:k===i?(p>=1?1:x-i):0).toFixed(3))});
+}
+addEventListener("scroll",function(){if(!rtick){rtick=true;requestAnimationFrame(rscroll)}},{passive:true});addEventListener("resize",rscroll);rscroll();
+
+/* live open/closed status (Pakistan time). Edit the two numbers if the hours change. */
+var OPEN=17*60,CLOSE=23*60+30;
+function pkNow(){var h=0,m=0;new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Karachi",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).forEach(function(x){if(x.type==="hour")h=+x.value;if(x.type==="minute")m=+x.value});return h*60+m}
+function status(){var n=pkNow(),o=n>=OPEN&&n<CLOSE;$$(".st").forEach(function(el){el.innerHTML='<i class="dot'+(o?"":" cl")+'"></i>'+(o?"Open now, until 11:30 PM":"Closed now, opens at 5 PM")})}
+status();setInterval(status,60000);
+show(0);
+})();
+</script>
+<script>/* Lenis 1.3.21 (MIT), inlined so the file works offline */
+(function(){var e=`1.3.21`;function t(e,t,n){return Math.max(e,Math.min(t,n))}function n(e,t,n){return(1-n)*e+n*t}function r(e,t,r,i){return n(e,t,1-Math.exp(-r*i))}function i(e,t){return(e%t+t)%t}var a=class{isRunning=!1;value=0;from=0;to=0;currentTime=0;lerp;duration;easing;onUpdate;advance(e){if(!this.isRunning)return;let n=!1;if(this.duration&&this.easing){this.currentTime+=e;let r=t(0,this.currentTime/this.duration,1);n=r>=1;let i=n?1:this.easing(r);this.value=this.from+(this.to-this.from)*i}else this.lerp?(this.value=r(this.value,this.to,this.lerp*60,e),Math.round(this.value)===this.to&&(this.value=this.to,n=!0)):(this.value=this.to,n=!0);n&&this.stop(),this.onUpdate?.(this.value,n)}stop(){this.isRunning=!1}fromTo(e,t,{lerp:n,duration:r,easing:i,onStart:a,onUpdate:o}){this.from=this.value=e,this.to=t,this.lerp=n,this.duration=r,this.easing=i,this.currentTime=0,this.isRunning=!0,a?.(),this.onUpdate=o}};function o(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>{n=void 0,e.apply(this,r)},t)}}var s=class{width=0;height=0;scrollHeight=0;scrollWidth=0;debouncedResize;wrapperResizeObserver;contentResizeObserver;constructor(e,t,{autoResize:n=!0,debounce:r=250}={}){this.wrapper=e,this.content=t,n&&(this.debouncedResize=o(this.resize,r),this.wrapper instanceof Window?window.addEventListener(`resize`,this.debouncedResize):(this.wrapperResizeObserver=new ResizeObserver(this.debouncedResize),this.wrapperResizeObserver.observe(this.wrapper)),this.contentResizeObserver=new ResizeObserver(this.debouncedResize),this.contentResizeObserver.observe(this.content)),this.resize()}destroy(){this.wrapperResizeObserver?.disconnect(),this.contentResizeObserver?.disconnect(),this.wrapper===window&&this.debouncedResize&&window.removeEventListener(`resize`,this.debouncedResize)}resize=()=>{this.onWrapperResize(),this.onContentResize()};onWrapperResize=()=>{this.wrapper instanceof Window?(this.width=window.innerWidth,this.height=window.innerHeight):(this.width=this.wrapper.clientWidth,this.height=this.wrapper.clientHeight)};onContentResize=()=>{this.wrapper instanceof Window?(this.scrollHeight=this.content.scrollHeight,this.scrollWidth=this.content.scrollWidth):(this.scrollHeight=this.wrapper.scrollHeight,this.scrollWidth=this.wrapper.scrollWidth)};get limit(){return{x:this.scrollWidth-this.width,y:this.scrollHeight-this.height}}},c=class{events={};emit(e,...t){let n=this.events[e]||[];for(let e=0,r=n.length;e<r;e++)n[e]?.(...t)}on(e,t){return this.events[e]?this.events[e].push(t):this.events[e]=[t],()=>{this.events[e]=this.events[e]?.filter(e=>t!==e)}}off(e,t){this.events[e]=this.events[e]?.filter(e=>t!==e)}destroy(){this.events={}}};let l={passive:!1};function u(e,t){return e===1?16.666666666666668:e===2?t:1}var d=class{touchStart={x:0,y:0};lastDelta={x:0,y:0};window={width:0,height:0};emitter=new c;constructor(e,t={wheelMultiplier:1,touchMultiplier:1}){this.element=e,this.options=t,window.addEventListener(`resize`,this.onWindowResize),this.onWindowResize(),this.element.addEventListener(`wheel`,this.onWheel,l),this.element.addEventListener(`touchstart`,this.onTouchStart,l),this.element.addEventListener(`touchmove`,this.onTouchMove,l),this.element.addEventListener(`touchend`,this.onTouchEnd,l)}on(e,t){return this.emitter.on(e,t)}destroy(){this.emitter.destroy(),window.removeEventListener(`resize`,this.onWindowResize),this.element.removeEventListener(`wheel`,this.onWheel,l),this.element.removeEventListener(`touchstart`,this.onTouchStart,l),this.element.removeEventListener(`touchmove`,this.onTouchMove,l),this.element.removeEventListener(`touchend`,this.onTouchEnd,l)}onTouchStart=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:0,y:0},this.emitter.emit(`scroll`,{deltaX:0,deltaY:0,event:e})};onTouchMove=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e,r=-(t-this.touchStart.x)*this.options.touchMultiplier,i=-(n-this.touchStart.y)*this.options.touchMultiplier;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:r,y:i},this.emitter.emit(`scroll`,{deltaX:r,deltaY:i,event:e})};onTouchEnd=e=>{this.emitter.emit(`scroll`,{deltaX:this.lastDelta.x,deltaY:this.lastDelta.y,event:e})};onWheel=e=>{let{deltaX:t,deltaY:n,deltaMode:r}=e,i=u(r,this.window.width),a=u(r,this.window.height);t*=i,n*=a,t*=this.options.wheelMultiplier,n*=this.options.wheelMultiplier,this.emitter.emit(`scroll`,{deltaX:t,deltaY:n,event:e})};onWindowResize=()=>{this.window={width:window.innerWidth,height:window.innerHeight}}};let f=e=>Math.min(1,1.001-2**(-10*e));var p=class{_isScrolling=!1;_isStopped=!1;_isLocked=!1;_preventNextNativeScrollEvent=!1;_resetVelocityTimeout=null;_rafId=null;isTouching;time=0;userData={};lastVelocity=0;velocity=0;direction=0;options;targetScroll;animatedScroll;animate=new a;emitter=new c;dimensions;virtualScroll;constructor({wrapper:t=window,content:n=document.documentElement,eventsTarget:r=t,smoothWheel:i=!0,syncTouch:a=!1,syncTouchLerp:o=.075,touchInertiaExponent:c=1.7,duration:l,easing:u,lerp:p=.1,infinite:m=!1,orientation:h=`vertical`,gestureOrientation:g=h===`horizontal`?`both`:`vertical`,touchMultiplier:_=1,wheelMultiplier:v=1,autoResize:y=!0,prevent:b,virtualScroll:x,overscroll:S=!0,autoRaf:C=!1,anchors:w=!1,autoToggle:T=!1,allowNestedScroll:E=!1,__experimental__naiveDimensions:D=!1,naiveDimensions:O=D,stopInertiaOnNavigate:k=!1}={}){window.lenisVersion=e,window.lenis||(window.lenis={}),window.lenis.version=e,h===`horizontal`&&(window.lenis.horizontal=!0),a===!0&&(window.lenis.touch=!0),(!t||t===document.documentElement)&&(t=window),typeof l==`number`&&typeof u!=`function`?u=f:typeof u==`function`&&typeof l!=`number`&&(l=1),this.options={wrapper:t,content:n,eventsTarget:r,smoothWheel:i,syncTouch:a,syncTouchLerp:o,touchInertiaExponent:c,duration:l,easing:u,lerp:p,infinite:m,gestureOrientation:g,orientation:h,touchMultiplier:_,wheelMultiplier:v,autoResize:y,prevent:b,virtualScroll:x,overscroll:S,autoRaf:C,anchors:w,autoToggle:T,allowNestedScroll:E,naiveDimensions:O,stopInertiaOnNavigate:k},this.dimensions=new s(t,n,{autoResize:y}),this.updateClassName(),this.targetScroll=this.animatedScroll=this.actualScroll,this.options.wrapper.addEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.addEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.addEventListener(`click`,this.onClick),this.options.wrapper.addEventListener(`pointerdown`,this.onPointerDown),this.virtualScroll=new d(r,{touchMultiplier:_,wheelMultiplier:v}),this.virtualScroll.on(`scroll`,this.onVirtualScroll),this.options.autoToggle&&(this.checkOverflow(),this.rootElement.addEventListener(`transitionend`,this.onTransitionEnd)),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}destroy(){this.emitter.destroy(),this.options.wrapper.removeEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.removeEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),this.options.wrapper.removeEventListener(`pointerdown`,this.onPointerDown),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.removeEventListener(`click`,this.onClick),this.virtualScroll.destroy(),this.dimensions.destroy(),this.cleanUpClassName(),this._rafId&&cancelAnimationFrame(this._rafId)}on(e,t){return this.emitter.on(e,t)}off(e,t){return this.emitter.off(e,t)}onScrollEnd=e=>{e instanceof CustomEvent||(this.isScrolling===`smooth`||this.isScrolling===!1)&&e.stopPropagation()};dispatchScrollendEvent=()=>{this.options.wrapper.dispatchEvent(new CustomEvent(`scrollend`,{bubbles:this.options.wrapper===window,detail:{lenisScrollEnd:!0}}))};get overflow(){let e=this.isHorizontal?`overflow-x`:`overflow-y`;return getComputedStyle(this.rootElement)[e]}checkOverflow(){[`hidden`,`clip`].includes(this.overflow)?this.internalStop():this.internalStart()}onTransitionEnd=e=>{e.propertyName?.includes(`overflow`)&&e.target===this.rootElement&&this.checkOverflow()};setScroll(e){this.isHorizontal?this.options.wrapper.scrollTo({left:e,behavior:`instant`}):this.options.wrapper.scrollTo({top:e,behavior:`instant`})}onClick=e=>{let t=e.composedPath().filter(e=>e instanceof HTMLAnchorElement&&e.href).map(e=>new URL(e.href)),n=new URL(window.location.href);if(this.options.anchors){let e=t.find(e=>n.host===e.host&&n.pathname===e.pathname&&e.hash);if(e){let t=typeof this.options.anchors==`object`&&this.options.anchors?this.options.anchors:void 0,n=`#${e.hash.split(`#`)[1]}`;this.scrollTo(n,t);return}}if(this.options.stopInertiaOnNavigate&&t.some(e=>n.host===e.host&&n.pathname!==e.pathname)){this.reset();return}};onPointerDown=e=>{e.button===1&&this.reset()};onVirtualScroll=e=>{if(typeof this.options.virtualScroll==`function`&&this.options.virtualScroll(e)===!1)return;let{deltaX:t,deltaY:n,event:r}=e;if(this.emitter.emit(`virtual-scroll`,{deltaX:t,deltaY:n,event:r}),r.ctrlKey||r.lenisStopPropagation)return;let i=r.type.includes(`touch`),a=r.type.includes(`wheel`);this.isTouching=r.type===`touchstart`||r.type===`touchmove`;let o=t===0&&n===0;if(this.options.syncTouch&&i&&r.type===`touchstart`&&o&&!this.isStopped&&!this.isLocked){this.reset();return}let s=this.options.gestureOrientation===`vertical`&&n===0||this.options.gestureOrientation===`horizontal`&&t===0;if(o||s)return;let c=r.composedPath();c=c.slice(0,c.indexOf(this.rootElement));let l=this.options.prevent,u=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`;if(c.find(e=>e instanceof HTMLElement&&(typeof l==`function`&&l?.(e)||e.hasAttribute?.(`data-lenis-prevent`)||u===`vertical`&&e.hasAttribute?.(`data-lenis-prevent-vertical`)||u===`horizontal`&&e.hasAttribute?.(`data-lenis-prevent-horizontal`)||i&&e.hasAttribute?.(`data-lenis-prevent-touch`)||a&&e.hasAttribute?.(`data-lenis-prevent-wheel`)||this.options.allowNestedScroll&&this.hasNestedScroll(e,{deltaX:t,deltaY:n}))))return;if(this.isStopped||this.isLocked){r.cancelable&&r.preventDefault();return}if(!(this.options.syncTouch&&i||this.options.smoothWheel&&a)){this.isScrolling=`native`,this.animate.stop(),r.lenisStopPropagation=!0;return}let d=n;this.options.gestureOrientation===`both`?d=Math.abs(n)>Math.abs(t)?n:t:this.options.gestureOrientation===`horizontal`&&(d=t),(!this.options.overscroll||this.options.infinite||this.options.wrapper!==window&&this.limit>0&&(this.animatedScroll>0&&this.animatedScroll<this.limit||this.animatedScroll===0&&n>0||this.animatedScroll===this.limit&&n<0))&&(r.lenisStopPropagation=!0),r.cancelable&&r.preventDefault();let f=i&&this.options.syncTouch,p=i&&r.type===`touchend`;p&&(d=Math.sign(this.velocity)*Math.abs(this.velocity)**this.options.touchInertiaExponent),this.scrollTo(this.targetScroll+d,{programmatic:!1,...f?{lerp:p?this.options.syncTouchLerp:1}:{lerp:this.options.lerp,duration:this.options.duration,easing:this.options.easing}})};resize(){this.dimensions.resize(),this.animatedScroll=this.targetScroll=this.actualScroll,this.emit()}emit(){this.emitter.emit(`scroll`,this)}onNativeScroll=()=>{if(this._resetVelocityTimeout!==null&&(clearTimeout(this._resetVelocityTimeout),this._resetVelocityTimeout=null),this._preventNextNativeScrollEvent){this._preventNextNativeScrollEvent=!1;return}if(this.isScrolling===!1||this.isScrolling===`native`){let e=this.animatedScroll;this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity,this.velocity=this.animatedScroll-e,this.direction=Math.sign(this.animatedScroll-e),this.isStopped||(this.isScrolling=`native`),this.emit(),this.velocity!==0&&(this._resetVelocityTimeout=setTimeout(()=>{this.lastVelocity=this.velocity,this.velocity=0,this.isScrolling=!1,this.emit()},400))}};reset(){this.isLocked=!1,this.isScrolling=!1,this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity=0,this.animate.stop()}start(){if(this.isStopped){if(this.options.autoToggle){this.rootElement.style.removeProperty(`overflow`);return}this.internalStart()}}internalStart(){this.isStopped&&(this.reset(),this.isStopped=!1,this.emit())}stop(){if(!this.isStopped){if(this.options.autoToggle){this.rootElement.style.setProperty(`overflow`,`clip`);return}this.internalStop()}}internalStop(){this.isStopped||(this.reset(),this.isStopped=!0,this.emit())}raf=e=>{let t=e-(this.time||e);this.time=e,this.animate.advance(t*.001),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))};scrollTo(e,{offset:n=0,immediate:r=!1,lock:i=!1,programmatic:a=!0,lerp:o=a?this.options.lerp:void 0,duration:s=a?this.options.duration:void 0,easing:c=a?this.options.easing:void 0,onStart:l,onComplete:u,force:d=!1,userData:p}={}){if((this.isStopped||this.isLocked)&&!d)return;let m=e,h=n;if(typeof m==`string`&&[`top`,`left`,`start`,`#`].includes(m))m=0;else if(typeof m==`string`&&[`bottom`,`right`,`end`].includes(m))m=this.limit;else{let e=null;if(typeof m==`string`?(e=document.querySelector(m),e||(m===`#top`?m=0:console.warn(`Lenis: Target not found`,m))):m instanceof HTMLElement&&m?.nodeType&&(e=m),e){if(this.options.wrapper!==window){let e=this.rootElement.getBoundingClientRect();h-=this.isHorizontal?e.left:e.top}let t=e.getBoundingClientRect(),n=getComputedStyle(e),r=this.isHorizontal?Number.parseFloat(n.scrollMarginLeft):Number.parseFloat(n.scrollMarginTop),i=getComputedStyle(this.rootElement),a=this.isHorizontal?Number.parseFloat(i.scrollPaddingLeft):Number.parseFloat(i.scrollPaddingTop);m=(this.isHorizontal?t.left:t.top)+this.animatedScroll-(Number.isNaN(r)?0:r)-(Number.isNaN(a)?0:a)}}if(typeof m==`number`){if(m+=h,m=Math.round(m),this.options.infinite){if(a){this.targetScroll=this.animatedScroll=this.scroll;let e=m-this.animatedScroll;e>this.limit/2?m-=this.limit:e<-this.limit/2&&(m+=this.limit)}}else m=t(0,m,this.limit);if(m===this.targetScroll){l?.(this),u?.(this);return}if(this.userData=p??{},r){this.animatedScroll=this.targetScroll=m,this.setScroll(this.scroll),this.reset(),this.preventNextNativeScrollEvent(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()});return}a||(this.targetScroll=m),typeof s==`number`&&typeof c!=`function`?c=f:typeof c==`function`&&typeof s!=`number`&&(s=1),this.animate.fromTo(this.animatedScroll,m,{duration:s,easing:c,lerp:o,onStart:()=>{i&&(this.isLocked=!0),this.isScrolling=`smooth`,l?.(this)},onUpdate:(e,t)=>{this.isScrolling=`smooth`,this.lastVelocity=this.velocity,this.velocity=e-this.animatedScroll,this.direction=Math.sign(this.velocity),this.animatedScroll=e,this.setScroll(this.scroll),a&&(this.targetScroll=e),t||this.emit(),t&&(this.reset(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()}),this.preventNextNativeScrollEvent())}})}}preventNextNativeScrollEvent(){this._preventNextNativeScrollEvent=!0,requestAnimationFrame(()=>{this._preventNextNativeScrollEvent=!1})}hasNestedScroll(e,{deltaX:t,deltaY:n}){let r=Date.now();e._lenis||={};let i=e._lenis,a,o,s,c,l,u,d,f,p,m;if(r-(i.time??0)>2e3){i.time=Date.now();let t=window.getComputedStyle(e);if(i.computedStyle=t,a=[`auto`,`overlay`,`scroll`].includes(t.overflowX),o=[`auto`,`overlay`,`scroll`].includes(t.overflowY),l=[`auto`].includes(t.overscrollBehaviorX),u=[`auto`].includes(t.overscrollBehaviorY),i.hasOverflowX=a,i.hasOverflowY=o,!(a||o))return!1;d=e.scrollWidth,f=e.scrollHeight,p=e.clientWidth,m=e.clientHeight,s=d>p,c=f>m,i.isScrollableX=s,i.isScrollableY=c,i.scrollWidth=d,i.scrollHeight=f,i.clientWidth=p,i.clientHeight=m,i.hasOverscrollBehaviorX=l,i.hasOverscrollBehaviorY=u}else s=i.isScrollableX,c=i.isScrollableY,a=i.hasOverflowX,o=i.hasOverflowY,d=i.scrollWidth,f=i.scrollHeight,p=i.clientWidth,m=i.clientHeight,l=i.hasOverscrollBehaviorX,u=i.hasOverscrollBehaviorY;if(!(a&&s||o&&c))return!1;let h=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`,g,_,v,y,b,x;if(h===`horizontal`)g=Math.round(e.scrollLeft),_=d-p,v=t,y=a,b=s,x=l;else if(h===`vertical`)g=Math.round(e.scrollTop),_=f-m,v=n,y=o,b=c,x=u;else return!1;return!x&&(g>=_||g<=0)?!0:(v>0?g<_:g>0)&&y&&b}get rootElement(){return this.options.wrapper===window?document.documentElement:this.options.wrapper}get limit(){return this.options.naiveDimensions?this.isHorizontal?this.rootElement.scrollWidth-this.rootElement.clientWidth:this.rootElement.scrollHeight-this.rootElement.clientHeight:this.dimensions.limit[this.isHorizontal?`x`:`y`]}get isHorizontal(){return this.options.orientation===`horizontal`}get actualScroll(){let e=this.options.wrapper;return this.isHorizontal?e.scrollX??e.scrollLeft:e.scrollY??e.scrollTop}get scroll(){return this.options.infinite?i(this.animatedScroll,this.limit):this.animatedScroll}get progress(){return this.limit===0?1:this.scroll/this.limit}get isScrolling(){return this._isScrolling}set isScrolling(e){this._isScrolling!==e&&(this._isScrolling=e,this.updateClassName())}get isStopped(){return this._isStopped}set isStopped(e){this._isStopped!==e&&(this._isStopped=e,this.updateClassName())}get isLocked(){return this._isLocked}set isLocked(e){this._isLocked!==e&&(this._isLocked=e,this.updateClassName())}get isSmooth(){return this.isScrolling===`smooth`}get className(){let e=`lenis`;return this.options.autoToggle&&(e+=` lenis-autoToggle`),this.isStopped&&(e+=` lenis-stopped`),this.isLocked&&(e+=` lenis-locked`),this.isScrolling&&(e+=` lenis-scrolling`),this.isScrolling===`smooth`&&(e+=` lenis-smooth`),e}updateClassName(){this.cleanUpClassName(),this.rootElement.className=`${this.rootElement.className} ${this.className}`.trim()}cleanUpClassName(){this.rootElement.className=this.rootElement.className.replace(/lenis(-\w+)?/g,``).trim()}};globalThis.Lenis=p,globalThis.Lenis.prototype=p.prototype})();
+</script>
+<script>
+/* smooth scroll: desktop mouse only. Phones and tablets keep native touch scrolling. */
+(function(){
+  if(!window.Lenis||!matchMedia("(hover:hover) and (pointer:fine)").matches||matchMedia("(prefers-reduced-motion:reduce)").matches)return;
+  var L=new Lenis({lerp:.09,wheelMultiplier:.95});window.lenis=L;
+  function raf(t){L.raf(t);requestAnimationFrame(raf)}requestAnimationFrame(raf);
+  document.addEventListener("click",function(e){
+    var a=e.target.closest('a[href^="#"]');if(!a)return;
+    var id=a.getAttribute("href"),t=id==="#top"?0:document.querySelector(id);
+    if(t===null)return;e.preventDefault();L.scrollTo(t,{offset:t===0?0:-56,duration:1.4});
+  });
+})();
+</script>
+</body>
+</html>
